@@ -1,0 +1,26 @@
+{
+  "name": "Hotresturants",
+  "version": "1.0.0",
+  "description": "The app is to help schedule reservation requests. Restaurant has just 5 tables available, every request after that is sending to waiting list.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xhrsteven/Hotresturants.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xhrsteven/Hotresturants/issues"
+  },
+  "homepage": "https://github.com/xhrsteven/Hotresturants#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
